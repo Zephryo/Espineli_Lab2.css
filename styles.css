@@ -41,8 +41,9 @@ h2 {
 
 ul {
     list-style-type: disc; 
-    padding: 20px; 
+    padding-left: 20px; /* Use padding-left instead of padding */
 }
+
 ul li {
     margin-bottom: 10px; /* Add space between list items */
 }
