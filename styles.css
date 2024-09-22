@@ -1,0 +1,49 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: flex-start; /* Aligns content at the top */
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff; /* White background for the content */
+    padding: 30px;
+    width: 60%; /* Adjust width as needed */
+    max-width: 900px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-top: 20px;
+}
+
+.header {
+    background-color: #C0C0C0; /* Header background color */
+    color: black; /* Text color */
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+    position: relative;
+    margin-bottom: 30px; /* Space below the header */
+}
+
+.header img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 120px; /* Adjust width */
+    height: 120px; /* Adjust height */
+}
+
+h2 {
+    margin: 20px 0 10px; /* Adjust margin for headings */
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
+}
+
+ul li {
+    margin-bottom: 10px; /* Add space between list items */
+}
